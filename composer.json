@@ -1,0 +1,36 @@
+{
+    "name": "rippleadmin/ripple-ui",
+    "description": "Default Ripple UI for Ripple Admin panel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Yang",
+            "email": "yangchenshin77@gmail.com"
+        }
+    ],
+    "keywords": [
+        "laravel",
+        "ripple",
+        "admin",
+        "customize",
+        "generator"
+    ],
+    "homepage": "https://github.com/rippleadmin/ripple-ui",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RippleAdmin\\RippleUi\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RippleAdmin\\RippleUi\\RippleUiServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

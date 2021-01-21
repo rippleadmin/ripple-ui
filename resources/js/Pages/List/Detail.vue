@@ -1,13 +1,13 @@
 <template>
   <div>
-    <RComponent :value="table" />
+    <RComponent :value="detail" />
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    table: {
+    detail: {
       type: Object,
       required: true
     }
